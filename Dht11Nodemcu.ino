@@ -1,8 +1,7 @@
- // TECHATRONIC.COM  
  // DHT11 LIBRARY  
  // https://github.com/adafruit/DHT-sensor-library  
  #include "DHT.h"  
- DHT dht2(5,DHT11);  
+ DHT dht2(5, DHT11);  
  void setup()  
  {  
   Serial.begin(9600); 
